@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Alumnos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gestión de Alumnos</h1>
+
+        <div class="form">
+            <label for="nombre">Nombre del Alumno:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="calificacion">Calificación:</label>
+            <input type="number" id="calificacion" required min="0" max="10">
+
+            <button id="agregar-btn">Agregar Alumno</button>
+        </div>
+
+        <h2>Lista de Alumnos</h2>
+        <div id="alumnos-list"></div>
+
+        <h2>Alumnos Aprobados</h2>
+        <div id="aprobados-list"></div>
+
+        <h2>Alumnos Reprobados</h2>
+        <div id="reprobados-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
