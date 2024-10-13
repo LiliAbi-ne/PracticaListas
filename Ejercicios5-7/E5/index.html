@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Palabras por Letra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Listar Palabras por Letra y Ordenarlas</h1>
+
+    <form onsubmit="event.preventDefault(); agregarPalabra();">
+        <input type="text" id="palabra" placeholder="Escribe una palabra">
+        <button id="agregar-btn">Agregar Palabra</button>
+    </form>
+
+
+    <div id="listas-por-letra"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
